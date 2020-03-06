@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#root div,
+li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  width: 40%;
+  padding: 1vw;
+  border: solid 1px white;
+}
+.usersTable:hover {
+  border-color: black;
+  cursor: pointer;
+}
+p,
+h4,
+h5 {
+  margin: 0 5px;
+}
+
+.address {
+  flex-direction: column;
+}
